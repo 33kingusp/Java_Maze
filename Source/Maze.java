@@ -12,8 +12,8 @@ public class Maze
 
 	public Maze(int x, int y)
 	{
-		if (x <= 0) x = 2;
-		if (y <= 0) y = 2;
+		if (x <= 0) x = 1;
+		if (y <= 0) y = 1;
 
 		size = new Vector2Int(x * 2 + 1, y * 2 + 1);
 		CreateMaze();
